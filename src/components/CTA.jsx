@@ -19,7 +19,7 @@ export default function CTA() {
               Research partnerships, clinical validation studies, or custom data science projects — we welcome collaborations with institutions that share our values.
             </p>
             <div style={{ display:'flex', gap:10, justifyContent:'center', flexWrap:'wrap' }}>
-              <a href="mailto:saadiah@iba.edu.pk" className="btn-primary">Get in touch</a>
+              <a href="mailto:team@clinical-machines.com" className="btn-primary">Get in touch</a>
               
             </div>
           </div>

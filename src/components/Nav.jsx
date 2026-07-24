@@ -73,6 +73,7 @@ export default function Nav() {
           style={styles.cta}
           onMouseEnter={(e) => { e.target.style.background = '#007A5E'; e.target.style.transform = 'translateY(-1px)' }}
           onMouseLeave={(e) => { e.target.style.background = '#00A882'; e.target.style.transform = 'translateY(0)' }}
+          onClick={() => window.location.href = 'mailto:team@clinical-machines.com'}
         >
           Get in touch
         </button>

@@ -19,12 +19,7 @@ const STATS = [
     context: 'Used to validate our feature selection method',
     color: '#E63946',
   },
-  {
-    target: 2, suffix: '', display: null,
-    label: 'Papers under peer review',
-    context: 'EAAI and PeerJ Computer Science',
-    color: '#F4A500',
-  },
+  
 ]
 
 function StatItem({ stat }) {
@@ -64,7 +59,7 @@ function StatItem({ stat }) {
 export default function Stats() {
   return (
     <section style={{ background:'#fff' }}>
-      <div className="section-wrap" style={{ paddingTop:0 }}>
+      <div className="section-wrap" style={{ paddingTop:50 }}>
         <div className="reveal" style={{
           background:'linear-gradient(135deg,rgba(0,168,130,0.03) 0%,rgba(67,97,238,0.03) 100%)',
           border:'1.5px solid #E2E8F0', borderRadius:18,

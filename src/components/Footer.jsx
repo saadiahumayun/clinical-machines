@@ -1,4 +1,4 @@
-const NAV = ['SAGE', 'CANDetect', 'PICTOR', 'Research', 'GitHub']
+const NAV = ['SAGE', 'CANDetect', 'PICTOR', 'Research']
 
 export default function Footer() {
   return (
