@@ -6,6 +6,7 @@ import Products from './components/Products'
 import Stats from './components/Stats'
 import Why from './components/Why'
 import Research from './components/Research'
+import SageResults from './components/SageResults'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -36,6 +37,7 @@ export default function App() {
       <Stats />
       <Why />
       <Research />
+      <SageResults />
       <CTA />
       <Footer />
     </>

@@ -14,6 +14,8 @@ const PRODUCTS = [
     stack: ['Open source · MIT', 'FHIR R4 connector', 'Gemini LLM rating'],
     link: 'https://sage.clinical-machines.com',
     linkLabel: 'Try live demo →',
+    link2: '#sage-results',
+    link2Label: 'See case studies →',
     accent: '#00A882', accentLt: '#E6F7F3', icon: '⚗️',
   },
   {
@@ -131,17 +133,32 @@ export default function Products() {
                   ))}
                 </div>
 
-                <a
-                  href={p.link}
-                  style={{
-                    fontFamily: "'Space Grotesk',sans-serif", fontSize: 14, fontWeight: 600,
-                    color: p.accent, textDecoration: 'none',
-                    display: 'inline-flex', alignItems: 'center', gap: 4,
-                    transition: 'gap 0.18s', alignSelf: 'flex-start',
-                  }}
-                  onMouseEnter={e => e.currentTarget.style.gap = '8px'}
-                  onMouseLeave={e => e.currentTarget.style.gap = '4px'}
-                >{p.linkLabel}</a>
+                <div style={{ display: 'flex', gap: 22, flexWrap: 'wrap', alignSelf: 'flex-start' }}>
+                  <a
+                    href={p.link}
+                    style={{
+                      fontFamily: "'Space Grotesk',sans-serif", fontSize: 14, fontWeight: 600,
+                      color: p.accent, textDecoration: 'none',
+                      display: 'inline-flex', alignItems: 'center', gap: 4,
+                      transition: 'gap 0.18s',
+                    }}
+                    onMouseEnter={e => e.currentTarget.style.gap = '8px'}
+                    onMouseLeave={e => e.currentTarget.style.gap = '4px'}
+                  >{p.linkLabel}</a>
+                  {p.link2 && (
+                    <a
+                      href={p.link2}
+                      style={{
+                        fontFamily: "'Space Grotesk',sans-serif", fontSize: 14, fontWeight: 600,
+                        color: '#4A5568', textDecoration: 'none',
+                        display: 'inline-flex', alignItems: 'center', gap: 4,
+                        transition: 'gap 0.18s, color 0.18s',
+                      }}
+                      onMouseEnter={e => { e.currentTarget.style.gap = '8px'; e.currentTarget.style.color = p.accent }}
+                      onMouseLeave={e => { e.currentTarget.style.gap = '4px'; e.currentTarget.style.color = '#4A5568' }}
+                    >{p.link2Label}</a>
+                  )}
+                </div>
               </div>
 
               {/* RIGHT: KPI panel */}
