@@ -17,7 +17,7 @@ const STATS = [
     target: 72, suffix: 'K+', display: '72K+',
     label: 'Cancer screening records',
     context: 'Used to validate our feature selection method',
-    color: '#E63946',
+    color: '#8C2F39',
   },
   
 ]

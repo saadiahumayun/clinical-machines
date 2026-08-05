@@ -1,10 +1,10 @@
 const ITEMS = [
   { text: 'Knowledge-guided feature selection', dot: '#00A882' },
-  { text: 'Breast cancer screening for community health workers', dot: '#E63946' },
+  { text: 'Breast cancer screening for community health workers', dot: '#8C2F39' },
   { text: 'Pediatric ICU mortality prediction', dot: '#4361EE' },
   { text: 'Direct FHIR R4 server connection', dot: '#00A882' },
   { text: 'LLM-assisted clinical AI', dot: '#F4A500' },
-  { text: 'Offline-first tools for rural settings', dot: '#E63946' },
+  { text: 'Offline-first tools for rural settings', dot: '#8C2F39' },
   { text: 'Expert-guided evolutionary search', dot: '#00A882' },
   { text: 'Validated on real patient cohorts', dot: '#4361EE' },
   { text: 'Open-source and peer-reviewed', dot: '#F4A500' },

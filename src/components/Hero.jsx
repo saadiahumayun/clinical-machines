@@ -266,7 +266,7 @@ export default function Hero() {
         <div style={{ ...fi('0.5s'), display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 30, justifyContent: 'center' }}>
           {[
             { name: 'SAGE', desc: 'Feature selection', color: '#00A882', bg: '#E6F7F3' },
-            { name: 'CANDetect', desc: 'Cancer screening', color: '#E63946', bg: '#FDEEF0' },
+            { name: 'CANDetect', desc: 'Cancer screening', color: '#8C2F39', bg: '#F7EBEC' },
             { name: 'PICTOR', desc: 'ICU prediction', color: '#4361EE', bg: '#EEF1FD' },
           ].map(p => (
             <span key={p.name} style={{ display: 'inline-flex', alignItems: 'center', gap: 5, background: p.bg, color: p.color, border: `1.5px solid ${p.color}33`, borderRadius: 100, padding: '4px 14px', fontSize: 13, fontWeight: 500, fontFamily: "'Space Grotesk',sans-serif" }}>

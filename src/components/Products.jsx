@@ -21,8 +21,7 @@ const PRODUCTS = [
   {
     tag: 'Cancer Screening',
     status: 'Pilot planned — Mityari, Sindh',
-    statusColor: '#E63946',
-    name: 'CANDetect',
+    statusColor: '#8C2F39',
     tagline: 'AI-assisted breast cancer risk stratification for community health workers',
     desc: 'In rural Sindh, over 60% of breast cancer cases are diagnosed at Stage III or IV — primarily because most women never reach a specialist. CANDetect is a mobile-first screening tool designed for community health workers with no clinical training, enabling three-tier risk stratification (Low / Moderate / High) at the point of first contact, without internet access or imaging equipment.',
     kpis: [
@@ -33,7 +32,7 @@ const PRODUCTS = [
     stack: ['CHW-deployed', 'Gates Foundation proposal', 'AKU collaboration'],
     link: 'https://candetect.clinical-machines.com',
     linkLabel: 'Try demo →',
-    accent: '#E63946', accentLt: '#FDEEF0', icon: '🔬',
+    accent: '#8C2F39', accentLt: '#F7EBEC', icon: '🔬',
   },
   {
     tag: 'Mortality Prediction',
